@@ -1,0 +1,165 @@
+*{
+    overflow: auto;
+}
+
+body{
+    background-color:#8BA1BB ;
+    font-family: Arial;
+} 
+
+p.categorie{
+    background-color:black ;
+    color: white;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -20px;
+    padding: 8px 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+div.contenu{
+    background-color:white ;
+    margin:60px 10% 80px 10%;
+    padding:0px 30px 30px 30px;
+    min-width: 450px;
+    box-shadow: 0px 0px 8px 5px rgba(0,0, 0, 0.2);
+    overflow: visible;
+
+  
+
+}
+h1{
+    text-align: center;
+    margin-bottom:1px 1px;
+    margin: bottom 3px;
+    min-height: 0px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+    
+}
+div.description{
+ text-align: center;
+
+}
+.centre_recette{
+ text-align: center;
+ width: 100%;
+ overflow: visible;
+
+}
+div.separation{
+ width: 100px;
+ height: 1px;
+ background-color: black;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+div.info{ 
+
+position: relative; 
+
+}
+
+table.info{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 80px;
+    border: 1px;
+   
+
+}
+table.info td {
+    text-align: center;
+    font-size: 18px;
+    vertical-align: top;
+
+
+}
+
+table.info th {
+font-size: 18px;
+vertical-align: bottom;
+padding: 8px;
+}
+
+img.info{
+    display: block;
+    max-height:400px;
+    object-fit: cover;
+    min-height: 200px;
+    }
+
+    div.colonne{
+    width: 45%;
+    margin-top: 10px;
+    }
+
+    div.colonne h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        border-bottom: 5px solid #6C829D;
+        padding-bottom: 2px;
+        }
+
+   div.colonne1{
+        display: inline-block;
+        margin-right: 10%;
+        
+     }    
+
+    div.colonne2{
+        float: right; 
+         
+        }
+        div.bordeur1 p {
+            text-align: center;
+            font-size:15px;
+            border: 2px solid lightgray;
+            padding: 7px 0;
+            margin-top: 4px;
+            margin-bottom: 0px;
+           
+        }
+
+        table.reparation p.numero{
+            background-color:#6C829D ;
+            color: white;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            padding-top: 4px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: 0px;
+       }
+
+       table.reparation td{
+           vertical-align: top;
+       }
+
+       table.reparation td.preparation_etape{
+        font-size: 13px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+    }
+
+    table.reparation tr{
+        height: 40px;
+    }
+   
+    
+    
